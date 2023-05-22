@@ -1,0 +1,7 @@
+The CSS property overflow-x: clip; is used to clip the content horizontally when it overflows the container. This means that any content that exceeds the width of the container will be clipped and not displayed outside of the container's boundaries.
+
+Here's how it works:
+
+If the content within the container is wider than the container's width, the excess content will be clipped and not visible.
+No scrollbars will be displayed to allow scrolling horizontally to view the clipped content.
+The clipped content will not be accessible or visible to the user.

@@ -5,9 +5,11 @@
 
 .h-container{
     justify-content: space-between;
+    column-gap: 17rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--secondary);
+    
 }
 
 .h-menu{

@@ -87,3 +87,14 @@
 .r-buttons>:nth-child(2):hover{
     scale: 1.25;
 }
+
+@media (max-width: 640px) {
+    .r-head{
+        align-items: center;
+    }
+
+    .r-buttons{
+        position: initial;
+    }
+    
+}

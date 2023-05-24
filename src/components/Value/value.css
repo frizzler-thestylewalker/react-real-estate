@@ -52,3 +52,39 @@
     font-size: 1.1rem;
 }
 
+@media (max-width: 1024px) {
+     .v-container{
+        margin-top: 2rem;
+     }
+
+    .v-container .image-container{
+       width: 100%;
+    }
+
+    .v-container>:nth-child(1){
+        width: 100%;
+    }
+
+    .v-container>:nth-child(2){
+        width: 100%;
+    }
+
+    .v-right{
+        align-items: center;
+    }
+
+    .accordian{
+        margin-top: 2rem;
+    }
+
+    .accordionButton .primaryText{
+
+        font-size: 0.8rem;
+    }
+    
+
+    
+  
+    
+}
+

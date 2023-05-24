@@ -6,10 +6,6 @@
     width: 50%;
 }
 
-
-
-
-
 .co-left{
     gap: 0.5rem;
 }
@@ -58,4 +54,30 @@
     background: var(--blue-gradient);
     color: white;
     scale: 0.8;
+}
+
+@media (max-width: 1024px) {
+
+  
+    
+    .co-container>:nth-child(1){
+        width: 100%;
+    }
+
+    .co-right{
+        justify-content: center;
+    }
+
+    .contactModes{
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mode{
+        width: 100%;
+    }
 }
